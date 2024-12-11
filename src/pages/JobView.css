@@ -1,0 +1,87 @@
+/* Styling for the Modify Jobs table */
+.job-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Table header styles */
+.job-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table row styles */
+.job-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Alternate row background for better readability */
+.job-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect for rows */
+.job-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Add Job form styling */
+form {
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    margin: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Button styling for Modify/Delete actions */
+button {
+    margin: 2px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.delete:hover {
+    background-color: #a71d2a;
+}
+
+/* Header for Modify Jobs */
+h2 {
+    margin-top: 20px;
+}
